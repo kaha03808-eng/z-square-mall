@@ -1,0 +1,38 @@
+{
+  "kind": "build_request",
+  "title": "Update footer Facebook link text to 'Hasnain'",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-12",
+      "text": "In the Footer component, update the text content of the first social media link (Facebook icon link) located at XPath /html[1]/body[1]/div[1]/div[1]/footer[1]/div[2]/div[2]/div[2]/a[1] to display 'Hasnain' as its visible label or accessible text.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Hasnain"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The first anchor element in the footer's social media links section displays the text 'Hasnain'.",
+        "The link retains its existing styling and behavior.",
+        "No other footer elements are modified."
+      ]
+    }
+  ],
+  "constraints": [
+    "Only modify the single anchor element identified by the XPath: /html[1]/body[1]/div[1]/div[1]/footer[1]/div[2]/div[2]/div[2]/a[1].",
+    "Do not alter any other footer links, icons, or layout."
+  ],
+  "nonGoals": [
+    "Changing any other section of the website.",
+    "Modifying backend logic.",
+    "Redesigning the footer layout."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

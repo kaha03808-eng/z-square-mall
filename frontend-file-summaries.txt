@@ -1,0 +1,5 @@
+{
+  "frontend/src/App.tsx": "Root application component that composes all page sections (Navbar, Hero, About, ArchitecturalHighlights, StoresAndBrands, DiningAndEntertainment, VisitorServices, Timings, Contact, Footer) in order for the single-page Z Square Mall website.",
+  "frontend/src/components/Footer.tsx": "Full-width footer with Z Square Mall branding in gold, quick navigation links with smooth scroll, social media icons (Facebook labeled \"Hasnain\", Instagram, X), contact details, copyright notice for ZAZ Shopping Mall Pvt. Ltd., and caffeine.ai attribution with UTM tracking.",
+  "frontend/index.html": "HTML entry point for the Z Square Mall SPA with corrected attribute quoting, Google Fonts preconnect/import for Playfair Display and Inter, SEO meta description, and viewport configuration."
+}

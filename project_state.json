@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Official single-page website for Z Square Mall, Kanpur. Built with React + Tailwind CSS featuring a navy/gold premium aesthetic. Includes sections: Hero, About, Architectural Highlights, Stores & Brands (with category filter), Dining & Entertainment, Visitor Services, Timings, Contact & Location, and Footer. Uses Playfair Display + Inter fonts, lucide-react icons, smooth scroll navigation, and scroll-based animations.",
+  "architectural_notes": [
+    "Single-page React app with Tailwind CSS, sticky navbar, smooth scroll, and IntersectionObserver-based scroll animations",
+    "Premium navy (#0A1628) and gold (#D4A017) brand palette with Playfair Display (headings) and Inter (body) from Google Fonts",
+    "No external images — uses gradient backgrounds, CSS art, SVG icons, and lucide-react throughout"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-sticky-navbar-with-the-z-square-mall-logo-name-in-gold-d4a017-on-a-deep-navy-0a1628-background-include-navigation-links-home-about-stores-dining-facilities-timings-contact-links-should-smooth-scroll-to-their-respective-sections-the-navbar-should-be-fully-mobile-responsive-with-a-hamburger-menu-on-small-screens",
+      "title": "Create a sticky navbar with the Z Square Mall logo/name in gold (#D4A017) on a deep navy (#0A1628) background. Include navigation links: Home, About, Stores, Dining, Facilities, Timings, Contact. Links should smooth-scroll to their respective sections. The navbar should be fully mobile responsive with a hamburger menu on small screens.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-full-screen-hero-section-with-a-deep-navy-0a1628-to-dark-gradient-background-display-bold-headline-z-square-mall-using-playfair-display-font-tagline-kanpur-s-premier-shopping-entertainment-destination-and-a-prominent-gold-cta-button-labeled-explore-mall-include-four-animated-statistics-counters-5-acres-900-000-sq-ft-150-brands-2-500-parking-spots",
+      "title": "Build a full-screen Hero section with a deep navy (#0A1628) to dark gradient background. Display bold headline 'Z Square Mall' using Playfair Display font, tagline 'Kanpur's Premier Shopping & Entertainment Destination', and a prominent gold CTA button labeled 'Explore Mall'. Include four animated statistics counters: 5 Acres, 900,000 sq ft, 150+ Brands, 2,500 Parking Spots.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-an-about-section-describing-z-square-mall-as-one-of-india-s-largest-malls-include-owned-by-zaz-tanners-group-designed-by-hafeez-contractor-opened-in-2010-located-at-bada-chauraha-kanpur-highlight-the-unique-beamless-architectural-design-use-gold-accents-for-headings-and-a-card-based-or-split-layout-design",
+      "title": "Build an About section describing Z Square Mall as one of India's largest malls. Include: owned by ZAZ Tanners Group, designed by Hafeez Contractor, opened in 2010, located at Bada Chauraha Kanpur. Highlight the unique beamless architectural design. Use gold accents for headings and a card-based or split-layout design.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-an-architectural-highlights-section-titled-firsts-in-india-display-these-milestones-as-premium-cards-or-a-styled-list-1-first-mall-with-atrium-on-a-squarish-track-90-000-sq-ft-2-first-to-use-beamless-singaporean-post-tension-technology-3-first-to-use-kalzip-australia-dgu-nano-glass-saint-gobain-italy-4-first-mall-with-travelators-from-3rd-basement-also-display-key-design-specs-floors-recede-1-5m-22m-wide-27m-high-entrance-900-ft-fa-ade",
+      "title": "Build an Architectural Highlights section titled 'Firsts in India'. Display these milestones as premium cards or a styled list: (1) First mall with atrium on a squarish track (90,000+ sq ft), (2) First to use Beamless Singaporean Post Tension Technology, (3) First to use Kalzip (Australia) & DGU Nano Glass (Saint Gobain, Italy), (4) First mall with travelators from 3rd basement. Also display key design specs: floors recede 1.5m, 22m wide × 27m high entrance, 900-ft façade.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-stores-brands-section-with-a-category-filter-bar-categories-and-brands-department-stores-lifestyle-westside-globus-pantaloons-marks-spencer-fashion-apparel-louis-philippe-jack-jones-van-heusen-calvin-klein-u-s-polo-assn-vero-moda-tommy-hilfiger-levis-peter-england-manyavar-electronics-home-reliance-digital-hp-ifb-point-home-centre-footwear-accessories-asics-inc-5-lenskart-jockey-bagline-specialty-hamleys-crossword-himalaya-clicking-a-category-filter-shows-only-that-category-s-brands-display-brands-as-styled-cards-with-hover-effects",
+      "title": "Build a Stores & Brands section with a category filter bar. Categories and brands: Department Stores (Lifestyle, Westside, Globus, Pantaloons, Marks & Spencer), Fashion & Apparel (Louis Philippe, Jack & Jones, Van Heusen, Calvin Klein, U.S. Polo Assn, Vero Moda, Tommy Hilfiger, Levis, Peter England, Manyavar), Electronics & Home (Reliance Digital, HP, IFB Point, Home Centre), Footwear & Accessories (Asics, Inc 5, Lenskart, Jockey, Bagline), Specialty (Hamleys, Crossword, Himalaya). Clicking a category filter shows only that category's brands. Display brands as styled cards with hover effects.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-dining-entertainment-section-with-categorized-cards-for-food-court-3rd-floor-mcdonald-s-kfc-burger-king-pizza-hut-domino-s-vaango-wow-momo-fine-dining-barbeque-nation-ajmeri-darbar-treats-baskin-robbins-the-chocolate-room-house-of-candy-kwality-walls-cinema-inox-cinemas-insignia-4-screens-1-000-seats-kids-zone-fun-city-use-distinct-visual-groupings-or-tabs-for-each-sub-category",
+      "title": "Build a Dining & Entertainment section with categorized cards for: Food Court 3rd Floor (McDonald's, KFC, Burger King, Pizza Hut, Domino's, Vaango, Wow! Momo), Fine Dining (Barbeque Nation, Ajmeri Darbar), Treats (Baskin Robbins, The Chocolate Room, House of Candy, Kwality Walls), Cinema (Inox Cinemas Insignia — 4 screens, ~1,000 seats), Kids' Zone (Fun City). Use distinct visual groupings or tabs for each sub-category.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-visitor-services-section-id-facilities-using-an-icon-based-grid-layout-with-lucide-react-icons-services-to-display-parking-3-level-basement-2-500-vehicles-free-wifi-wheelchairs-strollers-2nd-basement-lobby-baby-care-center-3rd-floor-first-aid-atrium-help-desk-atms-every-floor-near-lifts-8-9-driver-s-lounge-cab-on-call-ground-floor-help-desk",
+      "title": "Build a Visitor Services section (id='facilities') using an icon-based grid layout with lucide-react icons. Services to display: Parking (3-level basement, 2,500 vehicles), Free WiFi, Wheelchairs & Strollers (2nd basement lobby), Baby Care Center (3rd Floor), First Aid (atrium help desk), ATMs (every floor, near Lifts 8 & 9), Driver's Lounge, Cab-on-Call (Ground Floor help desk).",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-timings-section-displaying-operating-hours-as-styled-cards-or-a-clean-visual-table-hours-shops-mon-fri-11am-9-30pm-sat-sun-11am-10pm-food-court-mon-fri-11am-10pm-sat-sun-11am-10-30pm-cinema-10-45am-12am-daily",
+      "title": "Build a Timings section displaying operating hours as styled cards or a clean visual table. Hours: Shops (Mon–Fri 11AM–9:30PM, Sat–Sun 11AM–10PM), Food Court (Mon–Fri 11AM–10PM, Sat–Sun 11AM–10:30PM), Cinema (10:45AM–12AM daily).",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-contact-location-section-with-the-following-details-displayed-using-lucide-react-icons-address-16-113-mg-marg-bada-chauraha-kanpur-up-208001-phone-91-512-237-4444-91-9161775522-email-info-zsquaremall-com-admin-zsquaremall-com-include-a-styled-placeholder-map-area-navy-gold-css-styled-div-with-a-map-pin-icon-and-address-text-since-external-map-embeds-are-not-available",
+      "title": "Build a Contact & Location section with the following details displayed using lucide-react icons: Address (16/113, MG Marg (Bada Chauraha), Kanpur, UP 208001), Phone (+91-512-237-4444 / +91-9161775522), Email (info@zsquaremall.com / admin@zsquaremall.com). Include a styled placeholder map area (navy/gold CSS-styled div with a map pin icon and address text) since external map embeds are not available.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-footer-with-z-square-mall-brand-name-logo-in-gold-quick-navigation-links-home-about-stores-dining-facilities-timings-contact-social-media-icons-facebook-instagram-twitter-using-lucide-react-and-copyright-text-zaz-shopping-mall-pvt-ltd-dark-navy-background-with-gold-and-light-gray-text",
+      "title": "Build a Footer with: Z Square Mall brand name/logo in gold, quick navigation links (Home, About, Stores, Dining, Facilities, Timings, Contact), social media icons (Facebook, Instagram, Twitter) using lucide-react, and copyright text '© ZAZ Shopping Mall Pvt. Ltd.' Dark navy background with gold and light gray text.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-consistent-global-styling-and-animations-across-the-entire-single-page-application-1-import-google-fonts-playfair-display-for-all-headings-inter-for-body-text-2-use-color-palette-deep-navy-0a1628-as-primary-background-gold-d4a017-for-accents-headings-white-and-light-gray-for-body-text-3-add-scroll-triggered-fade-in-and-slide-up-animations-for-section-content-4-all-cards-should-have-subtle-hover-effects-scale-or-shadow-lift-5-ensure-full-mobile-responsiveness-across-all-sections",
+      "title": "Apply consistent global styling and animations across the entire single-page application: (1) Import Google Fonts — Playfair Display for all headings, Inter for body text. (2) Use color palette: deep navy #0A1628 as primary background, gold #D4A017 for accents/headings, white and light gray for body text. (3) Add scroll-triggered fade-in and slide-up animations for section content. (4) All cards should have subtle hover effects (scale or shadow lift). (5) Ensure full mobile responsiveness across all sections.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-footer-component-update-the-text-content-of-the-first-social-media-link-facebook-icon-link-located-at-xpath-html-1-body-1-div-1-div-1-footer-1-div-2-div-2-div-2-a-1-to-display-hasnain-as-its-visible-label-or-accessible-text",
+      "title": "In the Footer component, update the text content of the first social media link (Facebook icon link) located at XPath /html[1]/body[1]/div[1]/div[1]/footer[1]/div[2]/div[2]/div[2]/a[1] to display 'Hasnain' as its visible label or accessible text.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [],
+  "gameProjectType": "none",
+  "projectName": "Z Square Mall Website",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
