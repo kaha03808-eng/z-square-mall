@@ -1,19 +1,22 @@
 {
-  "name": "@caffeine/template-app",
+  "name": "z-square-mall-build",
+  "version": "1.0.0",
   "type": "module",
-  "engines": {
-    "node": ">=16.0.0",
-    "pnpm": ">=7.0.0",
-    "npm": "please use pnpm"
-  },
   "scripts": {
-    "build": "pnpm -r --if-present run build",
-    "prebuild": "pnpm -r --if-present run prebuild",
-    "pretest": "pnpm -r --if-present run prebuild",
-    "start": "pnpm -r --if-present run start",
-    "test": "pnpm -r --if-present run test"
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "latest"
   },
   "devDependencies": {
-    "sharp": "^0.34.4"
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
   }
 }
+
